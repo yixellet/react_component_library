@@ -1,0 +1,30 @@
+{
+  "name": "react_component_library",
+  "version": "0.0.1",
+  "description": "My library of web GUI components created with React",
+  "main": "dist/cjs/index.js",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "OWGrant",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.39",
+    "react": "^18.2.0",
+    "rollup": "^4.6.1",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.3.2"
+  },
+  "type": "module",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}
